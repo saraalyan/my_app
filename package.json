@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "books:server": "json-server --watch --port 5000 books.json"
+
   },
   "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+
     "vue": "^3.2.13"
   },
   "devDependencies": {
